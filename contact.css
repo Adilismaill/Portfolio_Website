@@ -1,18 +1,21 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(0, 191, 255); 
+    /* background-color: rgb(0, 191, 255);  */
     border: 1px black;
-    color: hsl(0, 100%, 5%);
+    /* color: hsl(0, 100%, 5%); */
+    background: #081b29; 
+    color: #ededed;
 }
 a:link{
     font-weight: bold;
     letter-spacing: 0.2em;
+    color: #ededed;
 }
 a : link{
     color:crimson;
 }
 a:visited{
-    color: black;
+    color: white;
 }
 input:hover{
     color: crimson;

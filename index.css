@@ -1,24 +1,46 @@
 /* font,border and color */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(0, 191, 255); 
+    /* background-color: rgb(0, 191, 255); */
+    background: #081b29; 
+    color: #ededed;
     border: 1px black;
-    color: hsl(0, 100%, 5%);
+    /* color: hsl(0, 100%, 5%); */
     /* link style */
 }
 a:link{
     font-weight: bold;
+    color: #ededed;
     letter-spacing: 0.2em;
     /* for centered */
 }
-#topnav-centered{
+a : link{
+    color:crimson;
+}
+a:visited{
+    color: white;
+}
+input:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+input:active{
+    color: blue;
+}
+input:focus{
+    color: blueviolet;
+}
+/* #topnav-centered{
     float: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-    
-}
+}  
+.topnav-centered{
+    color: #ededed;
+} */
+/* } */
 /* .image{
     width: 500;
     height: 500;
